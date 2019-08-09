@@ -1,0 +1,313 @@
+
+
+body {
+    background: lightgray;
+  
+  }
+
+.box1{
+    position: relative; 
+    left: 10px;
+    height: 50px;
+    width: 1000px;
+    padding: 0px;
+    background-color: white;
+
+}
+
+.box2{
+    position: relative;  
+    left: 10px;
+    height: 800px;
+    width: 1000px;
+    padding: 10px;
+    background-color: lightgrey ;
+
+}
+
+.box2v{
+    position: relative;
+    left: 10px;
+    height: 600px;
+    width: 1000px;
+    padding: 10px;
+    background-color: lightgrey ;
+
+}
+
+
+.box3{
+    position: absolute;
+    left: 10px;
+    width: 550px;
+    height: 450px;
+    padding: 10px;
+    background-color: white
+}
+
+.box3V{
+    position: absolute;
+    left: 50px;
+    width: 550px;
+    height: 500px;
+    padding: 10px;
+    background-color: white
+}
+
+
+
+.box4{
+    position: absolute;
+    left: 600px;
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    background-color: white;
+}
+
+.box4v{
+    position: absolute;
+    left: 620px;
+    width: 300px;
+    height: 450px;
+    padding: 10px;
+    background-color: white;
+}
+
+
+
+
+.title1{
+    color: lightseagreen;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.title2{
+    color: lightseagreen;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.pic1{
+    position: absolute;
+    left: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 1px;
+}
+
+.pic2{
+    position: relative;
+    left: 5px;
+    width: 120px;
+    height: 120px;
+    padding: 1px;
+}
+
+.pic2V{
+    position: relative;
+    left: 5px;
+    width: 120px;
+    height: 120px;
+    padding: 1px;
+    border:2px solid green;
+}
+
+.pic3 {
+    left: 20px;
+    width: 500px;
+    
+}
+
+
+.picC{
+    width: 360px;
+    align-content: center
+    padding: 5px;
+}
+
+.titleC{
+    color: lightseagreen;
+    text-align: center;
+    width: 360px;
+    font-size: 18px;
+    font-weight: bold;
+ 
+}
+
+.textC{
+    font-size: 15px;
+}
+
+.parag1{
+    position: absolute;
+    width: 300px;
+    left: 240px;
+}
+
+.paragV{
+    width: 300px;
+    left: 10px;
+    float: left;
+}
+
+.column {
+    float: left;
+    width: 50%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.box4b{
+
+    color: white;
+    font-size: 20px;
+    background-color: lightseagreen;
+    width: 100px;
+    margin: 0px;
+
+    text-align: center;
+    left: 0px;
+    height: 50px;
+}
+
+.box4b1{
+
+    color: white;
+    font-size: 20px;
+    background-color: lightseagreen;
+    width: 100px;
+    margin: 0px;
+
+    text-align: center;
+    left: 0px;
+    height: 60px;
+}
+
+.box5b{
+    position: absolute;
+    top: 8px;
+    left: 680px;
+}
+
+.box6b{
+    position: absolute;
+    top: 8px;
+    left: 760px;
+}
+
+.box7b{
+    position: absolute;
+    top: 8px;
+    left: 900px;
+}
+
+.fformat{
+    color: black;
+    font-size: 15px;
+    width: 100px;
+    padding: 0px;
+    margin: 0px;
+    font-weight: lighter;
+
+}
+
+.line1{
+    width: 112px;
+    height: 1px;
+    width: 550px;
+    border-bottom: 1px solid lightgrey;
+
+    }
+
+    .line2{
+        width: 112px;
+        height: 1px;
+        width: 300px;
+        border-bottom: 1px solid lightgrey;
+    
+        }
+
+
+        .box2C{
+            position: relative;
+            left: 10px;
+            height: 800px;
+            width: 1000px;
+            padding: 10px;
+            background-color: white ;
+        
+        }
+
+
+/* Adding media queries to show the drop-down, and hide the navbar when the screen is smaller than 480 pixels */
+@media (max-width: 800px) {
+  
+    .box1{
+        left:0px;
+        width: 550px;
+        background-color: green;
+    }
+   
+    .box2{
+        left: 0px;
+         background-color: lightgrey ;
+     }
+
+
+
+    .box4 {
+        margin-top: 320px;
+        left: 5px;
+        width: 550px;
+        padding: 10px;
+        background-color: white;
+    }
+ 
+    
+    .box3{
+        margin-top: 10px;
+        left: 5px;
+        width: 550px;
+        height: 300px;
+        padding: 10px;
+        background-color: white
+    }
+
+    .column {
+  /*      float: left;  */
+        width: 50%;
+      }
+      
+      /* Clear floats after the columns */
+      .row:after {
+        content: "";
+/*        display: table;  
+        clear: both;*/
+      }
+
+
+      .box4v{
+        margin-top: 550px;
+        left: 10px;
+        width: 550px;
+        height: 6000px;
+        padding: 10px;
+        background-color: white;
+    }
+
+    .box3V{
+        position: absolute;
+        left: 10px;
+        width: 550px;
+        height: 5200px;
+        padding: 10px;
+        background-color: white
+    }
